@@ -1,8 +1,8 @@
 module.exports = function reverse (n) {
-    let reversed = n.toString().split("").reverse().join("");
+    let numberreversed = n.toString().split("").reverse().join("");
 
-    reversed = parseInt(reversed);
+    numberreversed = parseInt(reversed);
   
     
-    return reversed;
+    return numberreversed;
 }
